@@ -1,6 +1,7 @@
 # Simplex_Method
 ---
 Симплекс метод для курсовой работы на python.
+
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 Однофазный симплекс метод. С поиском опорного базисного решения перебором возможных базисных переменных методом перебора(в будущем может быть будет исправлено).
@@ -23,7 +24,7 @@ lpp.add_limit(["1", "2", "0", "3", "-1", "6"])
 
 lpp.simplex_method(max=True)
 
-print("Оптимальное значение" + str(lpp.get_optimal_value()))
+print("Оптимальное значение " + str(lpp.get_optimal_value()))
 ```
 
 Вывод программы:
